@@ -27,8 +27,8 @@ while True:
         y=box[1]
         #change according to screen ratio
         #below changes are for 1366x768
-        mx=(x-60)*3
-        my=(y-100)*2
+        mx=(x-120)*4
+        my=(y-150)*3
         if mx>0 and mx<sx and my>0 and my<sy:
             pyautogui.moveTo(1360-mx, my)
             #click if no. of fingers is 0
